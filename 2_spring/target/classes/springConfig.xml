@@ -6,26 +6,5 @@
                                http://www.springframework.org/schema/beans/spring-beans.xsd
                                http://www.springframework.org/schema/context
                                http://www.springframework.org/schema/context/spring-context.xsd">
-    <!--    <bean id="stud" class="edu.in.batch1_sdet_trainer.spring.training.Student">-->
-    <!--        <constructor-arg index="0" value="30"/>-->
-
-    <!--    </bean>-->
-    <!--    <bean id="stud1" class="edu.in.batch1_sdet_trainer.spring.training.Student">-->
-    <!--        <constructor-arg index="0" value="33"/>-->
-
-    <!--    </bean>-->
-
-    <!--    <bean id="trainService" class="edu.in.batch1_sdet_trainer.spring.training.TrainingService" autowire="constructor">-->
-
-    <!--&lt;!&ndash;        <property name="coherts" ref="javaselenium"/>&ndash;&gt;-->
-    <!--    </bean>-->
-
-    <!--    <bean id="sdet" class="edu.in.batch1_sdet_trainer.spring.training.SdetCoherts" primary="true">-->
-
-
-    <!--    </bean>-->
-    <!--    <bean id="javaselenium" class="edu.in.batch1_sdet_trainer.spring.training.JavaSeleniumCoherts">-->
-
-    <!--    </bean>-->
-<context:component-scan base-package="edu.in.batch1_sdet_trainer.spring.training"/>
+<context:component-scan base-package="com.arnav.spring.training"/>
 </beans>
